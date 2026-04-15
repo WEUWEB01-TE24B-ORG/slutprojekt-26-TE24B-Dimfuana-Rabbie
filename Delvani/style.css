@@ -1,0 +1,75 @@
+/* --- --- --- RESET --- --- ---  */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* --- --- --- FÄRGER --- --- ---  */
+:root {
+    --harvest-orange: #ff7b00ff;
+    --dark-orange: #ff8800ff;
+    --deep-saffron: #ff9500ff;
+    --amber-glow: #ffa200ff;
+    --orange: #ffaa00ff;
+    --amber-flame: #ffb700ff;
+    --school-bus-yellow: #ffc300ff;
+    --bright-amber: #ffd000ff;
+    --bright-gold: #ffdd00ff;
+    --sunbeam-yellow: #ffea00ff;
+    --bright-snow: #f8f9faff;
+    --platinum: #e9ecefff;
+    --alabaster-grey: #dee2e6ff;
+    --pale-slate: #ced4daff;
+    --pale-slate-2: #adb5bdff;
+    --slate-grey: #6c757dff;
+    --iron-grey: #495057ff;
+    --gunmetal: #343a40ff;
+    --carbon-black: #212529ff;
+}
+
+/* --- --- --- --- ---- --- --- --- --- --- --- --- ---- --- --- ---  */
+
+/* --- --- --- BODY --- --- ---  */
+body {}
+
+/* --- --- --- KONTAINER --- --- ---  */
+.kontainer {}
+
+/* --- --- --- HEADER --- --- ---  */
+header {}
+header h1 {}
+header img.korg {}
+
+/* -- nav -- */
+header nav {}
+header nav a {}
+header nav a.paSidan {}
+
+/* --- --- --- MAIN --- --- ---  */
+main {}
+
+/* -- m -- */
+.m {}
+
+.m figure {}
+.m figure figcaption {}
+.m figure img {}
+
+.m button.pris {}
+.m button.pris p {}
+.m button.pris img.korgplus {}
+
+.m button.kvantitet {}
+.m button.kvantitet img.minus {}
+.m button.kvantitet img.plus {}
+.m button.kvantitet p.antal {}
+
+/* -- info -- */
+.info {}
+.info p {}
